@@ -49,26 +49,16 @@ navigation()
 # ROUTER
 # ----------------------------------
 
+from components.hero import homepage
+
 match st.session_state.page:
-
     case "HOME":
-        st.markdown(
-            """
-            <div class="hero">
-                <h1>THORNED GARDEN</h1>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
+        homepage()
     case "PROJECTS":
         projects_page()
-
     case "POSTS":
         posts_page()
-
     case "ABOUT":
         about_page()
-
     case "CONTACT":
         contact_page()
