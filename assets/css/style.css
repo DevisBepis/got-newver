@@ -1,0 +1,45 @@
+/* Hide Streamlit UI */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* Layout */
+
+.block-container {
+    padding-top: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    max-width: 1600px;
+}
+
+/* Typography */
+
+html,
+body,
+[class*="css"] {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Hero */
+
+.hero {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    letter-spacing: .25rem;
+    font-weight: 500;
+}
